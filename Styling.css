@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    user-select:none;
+    border-radius: 60px;
+
+    overflow: hidden;
+}
+
+
+body{
+    background-color: #e0e0e0;
+    color: rgba(0, 0, 0, 0.678);
+
+    display: flex;
+    flex-wrap: nowrap;
+   
+    font-family: Helvetica;
+    text-align: center;
+        
+    /* align-content: center; align allong Y axis*/
+    justify-content: center;
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+
+.player-0{
+    
+   
+    width: 35%;
+    height:max-content;
+    transition: width 0.3s;
+}
+.box-middle{
+    
+    width: 30%;
+    align-self:center;
+    height:max-content;
+}
+.player-1{
+    
+    width: 35%;
+    height:max-content;
+    transition: width 0.3s;
+}
+
+
+div{
+    
+    height: 250px;
+    margin: 90px;
+    box-shadow:  20px 20px 60px #bebebe,
+            -20px -20px 60px #ffffff;
+}
+
+
+.box-middle{
+    transition: width 0.3s;
+}
+.h{
+    transition: color 0.3s, box-shadow 0.1s;
+}
+.h:hover{
+    color: rgba(255, 0, 0, 0.616);
+    cursor: pointer;
+    outline-style: groove;
+  
+}
+
+.h:active{
+    color: rgb(0, 0, 0);
+    box-shadow:  10px 10px 30px #bebebe,
+            -10px -10px 30px #ffffff;
+}
+
+.m{
+    width: 60%;
+}
+
+.image{
+    height: max-content; /*TO MAXIMAZE SIZE TO FIT IT THE CHILD */
+}
+img{
+    height: 300px;
+    outline-style: groove;
+    outline-offset: -5px;
+}
+
+
+.new-game{
+    height: 150px;
+}
+
+.hold{
+    height: 150px;
+}
+
+
+
+
+
+.fontScore{
+    font-size: 200px;
+    font-weight: bold;
+}
+
+.fscore{
+    font-size: 50px;
+    height: max-content;
+}
+
+.current{
+    font-size: 100px;
+}
